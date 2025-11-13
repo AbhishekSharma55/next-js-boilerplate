@@ -45,6 +45,7 @@ model User {
   password      String?   // For credentials authentication
   emailVerified DateTime?
   image         String?
+  age           Int?      // Optional age field
   createdAt     DateTime  @default(now())
   updatedAt     DateTime  @updatedAt
 
